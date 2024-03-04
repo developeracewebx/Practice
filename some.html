@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>some()</h1>
+
+<body>
+    <script>
+
+const ages = [3, 10, 18, 20];
+
+let result = ages.some(checkAdult);
+console.log("result:",result);
+function checkAdult(age) {
+  return age > 19;
+}
+    </script>
+</body>
+</html>

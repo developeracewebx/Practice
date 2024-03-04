@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<h1>reduceRight()</h1>
+
+<body>
+    <script>
+
+// Description
+
+// The reduceRight() method executes a reducer function for each array element.
+
+// The reduceRight() method works from right to left.
+
+// The reduceRight() method returns a single value: the function's accumulated result.
+
+// The reduceRight() method does not execute the function for empty elements.
+
+const numbers = [175, 50, 25];
+
+   let result = numbers.reduceRight(myFunc);
+   console.log("result:",result);
+
+
+function myFunc(total, num) {
+  return total - num;
+} 
+
+    </script>
+    
+</body>
+</html>
